@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .ph1 {
+            margin-right: 15px;
+        }
+        .nav {
+            margin: 20px 10px;
+            border-radius: 13px;
+        }
+        .area {
+            height: auto;
+            margin-top: 10px;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        .fit, .about, .fav {
+            border-radius: 13px;
+            height: 300px;
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        .fit {
+            background-color: #292929;
+        }
+        .fit h1{
+            color: #ffffff;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .fit p{
+            color: #dbdbdb;
+        }
+        .about {
+            background-color: #292929;
+        }
+        .about h1{
+            color: #ffffff;
+        }
+        .fav {
+            background-color: #292929;
+        }
+        .fav h1{
+            color: #ffffff;
+            font-size: 30px;
+        }
+        .profile-1st{
+            width: 1270px;
+            margin-left: 40px;
+        }
+        .profile-1st img{
+            margin-right: 10px;
+            margin-left: 5px;
+            height: 60px;
+            width: 60px;
+        }
+        .profile-1st h1{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .fitting{
+            margin-top: 25px;
+        }
+        .fitting img{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border-radius: 15px;
+            margin-bottom: 10px;
+        }
+        .fitting-2{
+            margin-top: 25px;
+        }
+        .fitting-2 img{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border-radius: 15px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar bg-base-300 nav profile-1st">
+        <div class="navbar-start flex items-center">
+            <div class="dropdown">
+                <button tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </button>
+            </div>
+            <img src="images/124975872_128x128.png" alt="Profile Picture" class="rounded-full">
+            <h1 class="text-white">Sayan</h1>
+        </div>
+        <div class="navbar-end">
+            <a class="btn btn-primary ph1">Follow!</a>
+        </div>
+    </div>
+
+    <!-- Content Area -->
+    <div class="area bg-base-300 mx-10 p-5 rounded-xl">
+        <div class="activity space-y-5">
+            <!-- Section 1 -->
+            <div class="fit">
+                <h1 class="text-xl font-bold">About</h1>
+                <p>Sayan is a passionate coder who loves bringing ideas to life through programming. As a developer of Scratch 4.0, Sayan has been deeply involved in refining the platform, aiming to enhance its user experience for all. He is dedicated to simplifying coding concepts, making them more accessible and fun for beginners, especially young learners.
+
+                    Currently in class 7, Sayan has always been intrigued by the intersection of creativity and technology, which led him to dive into the world of coding. Scratch, with its block-based approach, has become his tool of choice to experiment and build interactive projects. He continuously works on improving Scratch 4.0 to provide a smoother and more engaging experience for its users.
+                    
+                    Through his efforts in the development of Scratch 4.0, Sayan strives to make coding not just a skill, but an enjoyable and creative journey for everyone, from beginners to advanced users. Whether it's creating new features or addressing user feedback, Sayan's focus is always on making coding more intuitive and fun!</p>
+            </div>
+
+            <!-- Section 2 -->
+            <div class="fav">
+                <h1 class="text-xl font-bold">My Projects</h1>
+                <div class="fitting">
+                    <img src="images/Black Modern Professional Business Project Presentation.png" alt="">
+                    <h1><a href="https://sajidsayan.github.io/Gaming-Hub/" target="_blank" rel="noopener noreferrer">Gaming Hub</a></h1>
+                </div>
+                <div class="fitting-2">
+                    <img src="images/Black Modern Professional Business Project Presentation (1).png" alt="">
+                    <h1><a href="https://sajidsayan.github.io/Gaming-Hub/" target="_blank" rel="noopener noreferrer">Cuisines</a></h1>
+                </div>
+            </div>
+
+            <!-- Section 3 -->
+            <div class="about">
+                <h1 class="text-xl font-bold">Hello</h1>
+                <p>Learn more about me here!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

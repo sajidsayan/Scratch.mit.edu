@@ -8,11 +8,22 @@
     <link rel="shortcut icon" href="images/scratch-logo-late-2023-v0-5nzrgrkgo9ba1-modified.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<style>
+    .nav-op{
+        margin-right: 570px;
+    }
+</style>
 </head>
 <body>
     <div class="navbar bg-base-300 rounded-xl">
         <div class="flex-1">
           <a class="btn btn-ghost text-xl">Scratch 4.0</a>
+        </div>
+        <div class="nav-op">
+            <a href="#" class="btn btn-ghost text-lg mx-30">Create</a>
+            <a href="#" class="btn btn-ghost text-lg mx-30">Explore</a>
+            <a href="#" class="btn btn-ghost text-lg mx-30">Ideas</a>
+            <a href="#" class="btn btn-ghost text-lg mx-30">About</a>
         </div>
         <div class="flex-none gap-2">
           <div class="form-control">
@@ -46,14 +57,9 @@
             <ul
               tabindex="0"
               class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li>
-                <a class="justify-between">
-                  Profile
-                  <span class="badge">New</span>
-                </a>
-              </li>
-              <li><a>Settings</a></li>
-              <li><a>Logout</a></li>
+              <li><button class="justify-between"><a href="profile.html">Profile</a></button></li>
+              <li><button class="justify-between"><a href="setting.html">Setting</a></button></li>
+              <li><button class="justify-between"><a href="log out.html">Log Out</a></button></li>
             </ul>
           </div>
         </div>
